@@ -84,110 +84,52 @@ export default function Home() {
             </p>
           </div>
 
-          <div className="mt-16 grid gap-6 md:grid-cols-2 lg:grid-cols-3">
+          <div className="mt-16 grid gap-6 md:grid-cols-2">
             {[
               {
-                nombre: "Lavado Básico",
+                nombre: "Limpieza y Detailing",
                 descripcion:
-                  "Limpieza exterior segura con productos de calidad y acabado profesional.",
-                precio: "Desde 45 €",
+                  "Lavado básico, lavado premium, detailing interior, detailing exterior, limpieza de motor y limpieza de tapicería.",
+                enlace: "/servicios/limpieza-detailing",
               },
               {
-                nombre: "Lavado Premium",
+                nombre: "Corrección y Restauración",
                 descripcion:
-                  "Limpieza exterior e interior más completa, con mayor nivel de detalle.",
-                precio: "Desde 80 €",
+                  "Pulido de carrocería, corrección de pintura y restauración profesional de faros.",
+                enlace: "/servicios/correccion-restauracion",
               },
               {
-                nombre: "Detailing Interior",
+                nombre: "Protección",
                 descripcion:
-                  "Limpieza profunda del habitáculo con tratamiento específico para cada material.",
-                precio: "Desde 120 €",
+                  "Tratamientos cerámicos y protección PPF para preservar la pintura y mantener el acabado durante más tiempo.",
+                enlace: "/servicios/proteccion",
               },
               {
-                nombre: "Detailing Exterior",
+                nombre: "Acabados y Conservación",
                 descripcion:
-                  "Lavado técnico, limpieza de detalles y acabado protector de la carrocería.",
-                precio: "Presupuesto personalizado",
+                  "Limpieza integral de llantas, hidratación de cuero e hidratación de plásticos exteriores.",
+                enlace: "/servicios/acabados-conservacion",
               },
-              {
-                nombre: "Pulido de carrocería",
-                descripcion:
-                  "Mejora del brillo y reducción de defectos superficiales en la pintura.",
-                precio: "Desde 180 €",
-              },
-              {
-                nombre: "Corrección de pintura",
-                descripcion:
-                  "Tratamiento avanzado para reducir arañazos, marcas y defectos visibles.",
-                precio: "Desde 260 €",
-              },
-              {
-                nombre: "Tratamiento cerámico",
-                descripcion:
-                  "Protección de larga duración con brillo profundo y efecto hidrofóbico.",
-                precio: "Presupuesto personalizado",
-              },
-              {
-                nombre: "PPF",
-                descripcion:
-                  "Película de protección para preservar la pintura frente a impactos y desgaste.",
-                precio: "Presupuesto personalizado",
-              },
-              {
-                nombre: "Restauración de faros",
-                descripcion:
-                  "Recuperación de transparencia, estética y capacidad lumínica.",
-                precio: "Desde 55 €",
-              },
-              {
-                nombre: "Limpieza de motor",
-                descripcion:
-                  "Limpieza técnica y controlada del compartimento del motor.",
-                precio: "Presupuesto personalizado",
-              },
-              {
-                nombre: "Limpieza integral de llantas",
-                descripcion:
-                  "Limpieza completa por dentro y por fuera, incluyendo zonas de difícil acceso.",
-                precio: "Desde 70 €",
-              },
-              {
-                nombre: "Hidratación de cuero",
-                descripcion:
-                  "Nutrición y protección del cuero para mejorar su tacto y conservación.",
-                precio: "Según estado",
-              },
-              {
-                nombre: "Hidratación de plásticos exteriores",
-                descripcion:
-                  "Recuperación del aspecto y protección de molduras y plásticos exteriores.",
-                precio: "Según estado",
-              },
-            ].map((servicio) => (
+            ].map((categoria) => (
               <article
-                key={servicio.nombre}
+                key={categoria.nombre}
                 className="group border border-zinc-800 bg-black/40 p-8 transition duration-300 hover:-translate-y-1 hover:border-amber-500"
               >
                 <div className="mb-8 h-px w-12 bg-amber-500 transition-all duration-300 group-hover:w-20" />
 
-                <h3 className="text-xl font-semibold tracking-wide">
-                  {servicio.nombre}
+                <h3 className="text-2xl font-semibold tracking-wide">
+                  {categoria.nombre}
                 </h3>
 
                 <p className="mt-4 leading-7 text-zinc-400">
-                  {servicio.descripcion}
-                </p>
-
-                <p className="mt-6 text-sm font-semibold uppercase tracking-widest text-amber-500">
-                  {servicio.precio}
+                  {categoria.descripcion}
                 </p>
 
                 <a
-                  href="#reservas"
+                  href={categoria.enlace}
                   className="mt-8 inline-block text-xs uppercase tracking-[0.25em] text-amber-500"
                 >
-                  Solicitar presupuesto →
+                  Ver servicios →
                 </a>
               </article>
             ))}
