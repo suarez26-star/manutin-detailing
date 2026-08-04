@@ -90,7 +90,7 @@ export default function Home() {
                 nombre: "Limpieza y Detailing",
                 descripcion:
                   "Lavado básico, lavado premium, detailing interior, detailing exterior, limpieza de motor y limpieza de tapicería.",
-                enlace: "/servicios/limpieza-detailing",
+                enlace: "/limpieza-detailing",
               },
               {
                 nombre: "Corrección y Restauración",

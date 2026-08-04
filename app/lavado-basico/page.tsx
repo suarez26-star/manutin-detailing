@@ -4,7 +4,7 @@ export default function LavadoBasico() {
       <section className="mx-auto max-w-6xl px-6 py-24">
         <div className="mb-14 h-[320px] overflow-hidden rounded-2xl md:h-[520px]">
           <img
-            src="/images/services/detailing-exterior-foam.jpg"
+            src="/images/services/detailing-exterior.jpg"
             alt="Lavado Básico"
             className="h-full w-full object-cover"
           />

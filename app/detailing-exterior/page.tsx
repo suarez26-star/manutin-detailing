@@ -6,7 +6,7 @@ export default function DetailingExterior() {
   className="mb-14 h-[320px] overflow-hidden rounded-2xl md:h-[520px]"
 >
   <img
-    src="/images/services/detailing-exterior.jpg"
+    src="/images/services/detailing-exterior-foam.jpg"
     alt="Detailing Exterior"
     className="h-full w-full object-cover"
   />
