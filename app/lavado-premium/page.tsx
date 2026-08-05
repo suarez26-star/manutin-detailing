@@ -1,4 +1,4 @@
-export default function DetailingExterior() {
+export default function LavadoPremium() {
   return (
     <main className="min-h-screen bg-black text-white">
       <section className="mx-auto max-w-6xl px-6 py-24">
@@ -6,18 +6,18 @@ export default function DetailingExterior() {
   className="mb-14 h-[320px] overflow-hidden rounded-2xl md:h-[520px]"
 >
   <img
-    src="/images/services/detailing-exterior-foam.jpg"
-    alt="Detailing Exterior"
+    src="/images/services/lavado-premium.jpg"
+    alt="Lavado Premium"
     className="h-full w-full object-cover"
   />
 </div>
 
         <p className="text-sm uppercase tracking-[0.4em] text-amber-500">
-          Detailing Exterior
+          Lavado Premium
         </p>
 
         <h1 className="mt-4 text-5xl font-bold">
-          Detailing Exterior Premium
+          Lavado Premium
         </h1>
 
         <p className="mt-8 max-w-3xl text-lg leading-8 text-zinc-400">

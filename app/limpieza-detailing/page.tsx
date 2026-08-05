@@ -5,7 +5,7 @@ export default function LimpiezaDetailing() {
       descripcion:
         "Lavado exterior seguro con prelavado, lavado manual, aclarado y secado con microfibra.",
       precio: "Desde 45 €",
-      imagen: "/images/services/detailing-exterior.jpg",
+      imagen: "/images/services/lavado-basico.jpg",
       enlace: "/lavado-basico",
     },
     {
@@ -13,7 +13,7 @@ export default function LimpiezaDetailing() {
       descripcion:
         "Servicio más completo con mayor nivel de detalle, limpieza de zonas difíciles y acabado protector.",
       precio: "Desde 80 €",
-      imagen: "/images/services/detailing-exterior.jpg",
+      imagen: "/images/services/lavado-premium.jpg",
       enlace: "/lavado-premium",
     },
     {
@@ -21,23 +21,15 @@ export default function LimpiezaDetailing() {
       descripcion:
         "Limpieza profunda del habitáculo con tratamiento específico para cada material.",
       precio: "Desde 120 €",
-      imagen: "/images/services/detailing-exterior.jpg",
+      imagen: "/images/services/lavado-basico.jpg",
       enlace: "/detailing-interior",
-    },
-    {
-      nombre: "Detailing Exterior Premium",
-      descripcion:
-        "Lavado técnico, limpieza de detalles y acabado protector con atención exhaustiva a cada zona.",
-      precio: "Presupuesto personalizado",
-      imagen: "/images/services/detailing-exterior-foam.jpg",
-      enlace: "/detailing-exterior",
     },
     {
       nombre: "Limpieza de motor",
       descripcion:
         "Limpieza técnica y controlada del compartimento del motor.",
       precio: "Presupuesto personalizado",
-      imagen: "/images/services/detailing-exterior.jpg",
+      imagen: "/images/services/lavado-basico.jpg",
       enlace: "/limpieza-motor",
     },
     {
@@ -45,7 +37,7 @@ export default function LimpiezaDetailing() {
       descripcion:
         "Limpieza profunda de asientos y superficies textiles según su estado y material.",
       precio: "Según estado",
-      imagen: "/images/services/detailing-exterior.jpg",
+      imagen: "/images/services/lavado-basico.jpg",
       enlace: "/limpieza-tapiceria",
     },
   ];
