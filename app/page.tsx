@@ -2,7 +2,7 @@ import Navbar from "./components/Navbar";
 
 export default function Home() {
   return (
-    <main className="min-h-screen bg-black text-white">
+    <main id="inicio" className="min-h-screen bg-black text-white">
       <Navbar />
 
       <section
@@ -129,13 +129,21 @@ export default function Home() {
                   href={categoria.enlace}
                   className="mt-8 inline-block text-xs uppercase tracking-[0.25em] text-amber-500"
                 >
-                  Ver servicios →
+                   Ver servicios →
                 </a>
               </article>
             ))}
           </div>
         </div>
       </section>
+
+      <a
+        href="#inicio"
+        aria-label="Volver arriba"
+        className="fixed bottom-8 right-6 z-50 flex h-12 w-12 items-center justify-center rounded-full bg-amber-500 text-xl font-bold text-black shadow-lg transition hover:scale-110 hover:bg-amber-400"
+      >
+        ↑
+      </a>
     </main>
   );
 }

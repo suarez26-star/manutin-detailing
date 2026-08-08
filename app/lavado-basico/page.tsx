@@ -1,6 +1,6 @@
 export default function LavadoBasico() {
   return (
-    <main className="min-h-screen bg-black text-white">
+    <main id="inicio" className="min-h-screen bg-black text-white">
       <section className="mx-auto max-w-6xl px-6 py-24">
         <div className="mb-14 h-[320px] overflow-hidden rounded-2xl md:h-[520px]">
           <img
@@ -46,6 +46,15 @@ export default function LavadoBasico() {
           </div>
         </div>
 
+        <div className="mt-8">
+          <a
+        href="/"
+        className="border border-zinc-700 px-8 py-4 text-center text-sm font-semibold uppercase tracking-widest text-white transition hover:border-white hover:bg-white hover:text-black"
+      >
+        Volver al inicio
+      </a>
+    </div>
+
         <div className="mt-20 grid gap-10 md:grid-cols-2">
 
           <div>
@@ -90,10 +99,19 @@ export default function LavadoBasico() {
               marcas de agua y microarañazos, consiguiendo un acabado limpio y
               brillante.
             </p>
-          </div>
+                </div>
 
-        </div>
-      </section>
-    </main>
+    </div>
+
+    <a
+      href="#inicio"
+      aria-label="Volver arriba"
+      className="fixed bottom-8 right-6 z-50 flex h-12 w-12 items-center justify-center rounded-full bg-amber-500 text-xl font-bold text-black shadow-lg transition hover:scale-110 hover:bg-amber-400"
+    >
+      ↑
+    </a>
+
+  </section>
+</main>
   );
 }

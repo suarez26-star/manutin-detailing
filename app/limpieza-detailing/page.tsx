@@ -43,7 +43,7 @@ export default function LimpiezaDetailing() {
   ];
 
   return (
-    <main className="min-h-screen bg-black text-white">
+    <main id="inicio" className="min-h-screen bg-black text-white">
       <section className="mx-auto max-w-7xl px-6 py-24">
         <p className="text-sm uppercase tracking-[0.4em] text-amber-500">
           Limpieza y Detailing
@@ -98,6 +98,23 @@ export default function LimpiezaDetailing() {
             </article>
           ))}
         </div>
+                 <div className="mt-10">
+          <a
+            href="/"
+            className="border border-zinc-700 px-8 py-4 text-center text-sm font-semibold uppercase tracking-widest text-white transition hover:border-white hover:bg-white hover:text-black"
+          >
+            Volver al inicio
+          </a>
+        </div>
+
+        <a
+          href="#inicio"
+          aria-label="Volver arriba"
+          className="fixed bottom-8 right-6 z-50 flex h-12 w-12 items-center justify-center rounded-full bg-amber-500 text-xl font-bold text-black shadow-lg transition hover:scale-110 hover:bg-amber-400"
+        >
+          ↑
+        </a>
+
       </section>
     </main>
   );

@@ -1,6 +1,6 @@
 export default function LavadoPremium() {
   return (
-    <main className="min-h-screen bg-black text-white">
+    <main id="inicio" className="min-h-screen bg-black text-white">
       <section className="mx-auto max-w-6xl px-6 py-24">
         <div
   className="mb-14 h-[320px] overflow-hidden rounded-2xl md:h-[520px]"
@@ -112,12 +112,21 @@ export default function LavadoPremium() {
         {paso.titulo}
       </h2>
 
-      <p className="mt-4 leading-7 text-zinc-400">
+            <p className="mt-4 leading-7 text-zinc-400">
         {paso.texto}
       </p>
     </article>
   ))}
 </div>
+
+<a
+  href="#inicio"
+  aria-label="Volver arriba"
+  className="fixed bottom-8 right-6 z-50 flex h-12 w-12 items-center justify-center rounded-full bg-amber-500 text-xl font-bold text-black shadow-lg transition hover:scale-110 hover:bg-amber-400"
+>
+  ↑
+</a>
+
       </section>
     </main>
   );
