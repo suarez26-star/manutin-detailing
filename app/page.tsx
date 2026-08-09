@@ -1,8 +1,10 @@
 import Navbar from "./components/Navbar";
+import Intro from "./components/Intro";
 
 export default function Home() {
   return (
     <main id="inicio" className="min-h-screen bg-black text-white">
+      <Intro />
       <Navbar />
 
       <section
@@ -11,6 +13,7 @@ export default function Home() {
           backgroundImage: "url('/hero-manutin.png')",
         }}
       >
+
         <div className="absolute inset-0 bg-black/55" />
         <div className="absolute inset-0 bg-gradient-to-b from-black/30 via-transparent to-black/80" />
 
