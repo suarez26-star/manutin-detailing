@@ -21,7 +21,7 @@ export default function LimpiezaDetailing() {
       descripcion:
         "Limpieza profunda del habitáculo con tratamiento específico para cada material.",
       precio: "Desde 120 €",
-      imagen: "/images/services/lavado-basico.jpg",
+      imagen: "/images/services/detailing-interior.jpg",
       enlace: "/detailing-interior",
     },
     {
@@ -29,7 +29,7 @@ export default function LimpiezaDetailing() {
       descripcion:
         "Limpieza técnica y controlada del compartimento del motor.",
       precio: "Presupuesto personalizado",
-      imagen: "/images/services/lavado-basico.jpg",
+      imagen: "/images/services/limpieza-motor.jpg",
       enlace: "/limpieza-motor",
     },
     {
@@ -37,7 +37,7 @@ export default function LimpiezaDetailing() {
       descripcion:
         "Limpieza profunda de asientos y superficies textiles según su estado y material.",
       precio: "Según estado",
-      imagen: "/images/services/lavado-basico.jpg",
+      imagen: "/images/services/limpieza-tapiceria.jpg",
       enlace: "/limpieza-tapiceria",
     },
   ];
