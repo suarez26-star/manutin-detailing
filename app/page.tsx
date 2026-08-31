@@ -99,7 +99,7 @@ export default function Home() {
                 nombre: "Corrección y Restauración",
                 descripcion:
                   "Pulido de carrocería, corrección de pintura y restauración profesional de faros.",
-                enlace: "/servicios/correccion-restauracion",
+                enlace: "/correccion-pintura-pulido",
               },
               {
                 nombre: "Protección",
