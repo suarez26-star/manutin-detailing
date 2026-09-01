@@ -102,10 +102,10 @@ export default function Home() {
                 enlace: "/correccion-pintura-pulido",
               },
               {
-                nombre: "Protección",
-                descripcion:
-                  "Tratamientos cerámicos y protección PPF para preservar la pintura y mantener el acabado durante más tiempo.",
-                enlace: "/servicios/proteccion",
+                 nombre: "Protección",
+                 descripcion:
+                   "Tratamientos cerámicos profesionales para proteger la pintura y mantener el acabado durante más tiempo. Protección PPF no disponible por el momento.",
+                 enlace: "/proteccion",
               },
               {
                 nombre: "Acabados y Conservación",
