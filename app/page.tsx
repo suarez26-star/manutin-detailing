@@ -140,6 +140,23 @@ export default function Home() {
         </div>
       </section>
 
+            <section id="contacto" className="scroll-mt-24 bg-black px-6 py-24 text-white">
+        <div className="mx-auto max-w-5xl text-center">
+          <p className="text-sm uppercase tracking-[0.4em] text-amber-500">
+            Contacto
+          </p>
+
+          <h2 className="mt-4 text-4xl font-bold md:text-6xl">
+            Hablemos de tu vehículo
+          </h2>
+
+          <p className="mx-auto mt-6 max-w-2xl text-lg leading-8 text-zinc-400">
+            Cuéntanos qué servicio necesitas y te prepararemos un presupuesto
+            personalizado según el estado y las necesidades de tu vehículo.
+          </p>
+        </div>
+      </section>
+
       <a
         href="#inicio"
         aria-label="Volver arriba"
