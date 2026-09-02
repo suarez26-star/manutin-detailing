@@ -110,8 +110,8 @@ export default function Home() {
               {
                 nombre: "Acabados y Conservación",
                 descripcion:
-                  "Limpieza integral de llantas, hidratación de cuero e hidratación de plásticos exteriores.",
-                enlace: "/servicios/acabados-conservacion",
+                   "Limpieza integral de llantas y pinzas de freno, recuperación e hidratación de plásticos exteriores.",
+                enlace: "/acabados-conservacion",
               },
             ].map((categoria) => (
               <article

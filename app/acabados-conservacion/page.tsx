@@ -1,48 +1,48 @@
-export default function CorreccionPinturaPulido() {
+export default function AcabadosConservacion() {
   return (
     <main id="inicio" className="min-h-screen bg-black text-white">
       <section className="mx-auto max-w-6xl px-6 py-24">
 
-        {/* CABECERA GENERAL */}
         <p className="text-sm uppercase tracking-[0.4em] text-amber-500">
-          Corrección y Restauración
+          Acabados y Conservación
         </p>
 
         <h1 className="mt-4 text-5xl font-bold">
-          Corrección y Restauración
+          Acabados y Conservación
         </h1>
 
         <p className="mt-8 max-w-3xl text-lg leading-8 text-zinc-400">
-          Tratamientos profesionales orientados a recuperar el acabado,
-          corregir defectos y restaurar elementos deteriorados del vehículo,
-          adaptando cada proceso a su estado real.
+          Tratamientos orientados a recuperar, conservar y proteger elementos
+          exteriores del vehículo, mejorando su aspecto y prolongando el buen
+          estado de sus acabados.
         </p>
 
         {/* ===================================================== */}
-        {/* CORRECCIÓN DE PINTURA Y PULIDO */}
+        {/* LIMPIEZA INTEGRAL DE LLANTAS Y PINZAS DE FRENO */}
         {/* ===================================================== */}
 
-        <div className="mt-16">
+        <div className="mt-20">
           <div className="mb-14 h-[320px] overflow-hidden rounded-2xl md:h-[520px]">
             <img
-              src="/images/services/correccion-pintura-pulido.jpg"
-              alt="Corrección de pintura y pulido"
+              src="/images/services/limpieza-llantas-pinzas.jpg"
+              alt="Limpieza integral de llantas y pinzas de freno"
               className="h-full w-full object-cover"
             />
           </div>
 
           <p className="text-sm uppercase tracking-[0.4em] text-amber-500">
-            Corrección de pintura y pulido
+            Limpieza integral de llantas y pinzas de freno
           </p>
 
           <h2 className="mt-4 text-4xl font-bold">
-            Corrección de pintura y pulido
+            Limpieza profunda y detallada
           </h2>
 
           <p className="mt-8 max-w-3xl text-lg leading-8 text-zinc-400">
-            Tratamiento profesional orientado a reducir y corregir defectos de
-            la pintura, recuperar claridad y mejorar el acabado mediante un
-            proceso adaptado al estado real de cada vehículo.
+            Realizamos una limpieza profunda de llantas y pinzas de freno,
+            eliminando polvo de frenado, contaminación férrica, suciedad
+            incrustada y residuos acumulados en las zonas más difíciles de
+            alcanzar.
           </p>
 
           <div className="mt-10 flex flex-col gap-4 sm:flex-row">
@@ -62,7 +62,7 @@ export default function CorreccionPinturaPulido() {
               </p>
 
               <p className="mt-2 text-lg font-semibold">
-                Según el estado de la pintura
+                Según estado y tipo de llanta
               </p>
             </div>
           </div>
@@ -87,33 +87,33 @@ export default function CorreccionPinturaPulido() {
             {[
               {
                 numero: "01",
-                titulo: "Inspección y medición de pintura",
+                titulo: "Inspección inicial",
                 texto:
-                  "Evaluamos el estado de la laca, localizamos defectos y comprobamos espesores cuando es necesario para definir el nivel de corrección adecuado.",
+                  "Revisamos el estado de las llantas y pinzas de freno, el nivel de contaminación, polvo de frenado y suciedad acumulada.",
               },
               {
                 numero: "02",
-                titulo: "Lavado y descontaminación completa",
+                titulo: "Desmontaje de las ruedas",
                 texto:
-                  "Eliminamos suciedad superficial, contaminación férrica, residuos adheridos y otras partículas que puedan interferir en el pulido.",
+                  "Retiramos las ruedas cuando el servicio lo requiere para acceder correctamente a la cara interior de las llantas y a las pinzas de freno.",
               },
               {
                 numero: "03",
-                titulo: "Corrección por etapas",
+                titulo: "Limpieza y descontaminación de llantas",
                 texto:
-                  "Trabajamos la pintura con combinaciones específicas de compuestos y pads para reducir swirls, marcas, oxidación y otros defectos visibles.",
+                  "Trabajamos la cara exterior e interior, radios y zonas de difícil acceso para eliminar suciedad, contaminación férrica y residuos adheridos.",
               },
               {
                 numero: "04",
-                titulo: "Pulido de acabado",
+                titulo: "Limpieza de pinzas de freno",
                 texto:
-                  "Refinamos la superficie para mejorar profundidad, claridad y nivel de brillo, buscando un acabado uniforme y limpio.",
+                  "Limpiamos cuidadosamente las pinzas y las zonas accesibles del conjunto para retirar polvo de frenado y suciedad acumulada.",
               },
               {
                 numero: "05",
-                titulo: "Limpieza final y protección ligera",
+                titulo: "Protección y montaje final",
                 texto:
-                  "Retiramos residuos del proceso y dejamos la superficie preparada para recibir posteriormente un sellante, cera o tratamiento cerámico.",
+                  "Aplicamos protección cuando corresponde y realizamos nuevamente el montaje de las ruedas siguiendo el procedimiento adecuado.",
               },
             ].map((paso) => (
               <article
@@ -137,32 +137,31 @@ export default function CorreccionPinturaPulido() {
         </div>
 
         {/* ===================================================== */}
-        {/* RESTAURACIÓN DE FAROS */}
+        {/* RECUPERACIÓN E HIDRATACIÓN DE PLÁSTICOS EXTERIORES */}
         {/* ===================================================== */}
 
         <div className="mt-32 border-t border-zinc-800 pt-24">
-
           <div className="mb-14 h-[320px] overflow-hidden rounded-2xl md:h-[520px]">
             <img
-              src="/images/services/restauracion-faros.jpg"
-              alt="Restauración profesional de faros"
+              src="/images/services/recuperacion-plasticos-exteriores.jpg"
+              alt="Recuperación e hidratación de plásticos exteriores"
               className="h-full w-full object-cover"
             />
           </div>
 
           <p className="text-sm uppercase tracking-[0.4em] text-amber-500">
-            Restauración profesional de faros
+            Recuperación e hidratación de plásticos exteriores
           </p>
 
           <h2 className="mt-4 text-4xl font-bold">
-            Recuperamos claridad y acabado
+            Recuperación de plásticos deteriorados por el sol
           </h2>
 
           <p className="mt-8 max-w-3xl text-lg leading-8 text-zinc-400">
-            Restauramos ópticas deterioradas por el paso del tiempo, la
-            exposición solar y la oxidación, eliminando el aspecto amarillento
-            y opaco para recuperar transparencia, uniformidad y mejorar la
-            apariencia del conjunto.
+            Tratamos plásticos y molduras exteriores deteriorados por la
+            exposición solar, la pérdida de color y el paso del tiempo,
+            buscando recuperar un acabado más uniforme y posteriormente
+            acondicionar y proteger la superficie.
           </p>
 
           <div className="mt-10 flex flex-col gap-4 sm:flex-row">
@@ -178,11 +177,11 @@ export default function CorreccionPinturaPulido() {
 
             <div className="border border-zinc-800 bg-zinc-950 px-6 py-4">
               <p className="text-xs uppercase tracking-[0.25em] text-zinc-500">
-                Duración aproximada
+                Aplicación
               </p>
 
               <p className="mt-2 text-lg font-semibold">
-                Según el estado de los faros
+                Molduras y plásticos exteriores
               </p>
             </div>
           </div>
@@ -200,33 +199,33 @@ export default function CorreccionPinturaPulido() {
             {[
               {
                 numero: "01",
-                titulo: "Inspección del estado del faro",
+                titulo: "Inspección del estado",
                 texto:
-                  "Evaluamos el nivel de oxidación, pérdida de transparencia, amarilleamiento y deterioro de la superficie para determinar el proceso necesario.",
+                  "Evaluamos la pérdida de color, decoloración, manchas y deterioro provocado por la exposición solar y los agentes ambientales.",
               },
               {
                 numero: "02",
-                titulo: "Limpieza y protección de zonas próximas",
+                titulo: "Limpieza profunda",
                 texto:
-                  "Limpiamos la óptica y protegemos cuidadosamente las superficies adyacentes antes de comenzar el proceso de restauración.",
+                  "Eliminamos suciedad, contaminación y restos de productos anteriores para trabajar sobre una superficie correctamente preparada.",
               },
               {
                 numero: "03",
-                titulo: "Lijado progresivo",
+                titulo: "Recuperación del plástico",
                 texto:
-                  "Trabajamos la superficie mediante diferentes etapas de lijado para eliminar la capa deteriorada y recuperar una base uniforme.",
+                  "Tratamos las superficies deterioradas para recuperar, en la medida que permita su estado, un tono más uniforme y mejorar su apariencia.",
               },
               {
                 numero: "04",
-                titulo: "Pulido y refinado",
+                titulo: "Hidratación y acondicionamiento",
                 texto:
-                  "Pulimos y refinamos la óptica para recuperar transparencia, claridad y un acabado uniforme.",
+                  "Aplicamos el tratamiento adecuado para acondicionar el plástico y recuperar un acabado más natural y uniforme.",
               },
               {
                 numero: "05",
-                titulo: "Acabado y protección final",
+                titulo: "Protección y revisión final",
                 texto:
-                  "Realizamos la limpieza final y aplicamos el acabado protector adecuado para ayudar a conservar el resultado conseguido.",
+                  "Finalizamos con protección para ayudar a conservar el resultado y revisamos todas las zonas tratadas.",
               },
             ].map((paso) => (
               <article
@@ -249,7 +248,7 @@ export default function CorreccionPinturaPulido() {
           </div>
         </div>
 
-        {/* BOTÓN VOLVER ARRIBA */}
+        {/* VOLVER ARRIBA */}
         <a
           href="#inicio"
           aria-label="Volver arriba"

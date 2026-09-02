@@ -79,7 +79,7 @@ export default function Proteccion() {
               href="/"
               className="border border-zinc-700 px-8 py-4 text-center text-sm font-semibold uppercase tracking-widest text-white transition hover:border-white hover:bg-white hover:text-black"
             >
-              Volver al inicio
+              Volver a servicios
             </a>
           </div>
 

@@ -55,10 +55,10 @@ export default function LavadoPremium() {
   </a>
 
   <a
-    href="/"
+    href="/limpieza-detailing"
     className="border border-zinc-700 px-8 py-4 text-center text-sm font-semibold uppercase tracking-widest text-white transition hover:border-white hover:bg-white hover:text-black"
   >
-    Volver al inicio
+    Volver a servicios
   </a>
 </div>
 <div className="mt-16 grid gap-6 md:grid-cols-2">
